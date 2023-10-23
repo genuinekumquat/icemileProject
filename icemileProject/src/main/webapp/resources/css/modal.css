@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+.modaldetail {
+	display: none;
+	position: absolute;
+	background-color: #fff;
+	border: 1px solid #000;
+	padding: 10px;
+	z-index: 1;
+}
+#closeModalButton{
+	cursor: pointer;
+	background-color: black;
+	color: white;
+	font-size: 15px;
+	margin-bottom: 5px;
+}
+#closeModalButton:hover{
+	color:silver;
+}
+#mv1Element,#mv2Element,#mv3Element,#mv4Element,#mv5Element,#mv6Element,#mv7Element,#mv8Element{
+border: none;
+}

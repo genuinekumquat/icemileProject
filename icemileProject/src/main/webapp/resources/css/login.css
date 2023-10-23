@@ -1,0 +1,192 @@
+@charset "UTF-8";
+
+
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+*{
+	font-family: 'Pretendard-Regular';
+    margin: 0;
+    padding: 0;
+}
+
+body{
+  background-color: #fff3e0 !important;
+ height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row; 
+  align-items: center;
+  justify-content: center;	
+}
+
+main{
+ 
+}
+
+h2{
+	padding-top : 1em;
+	padding-bottom : 1em;
+	text-align: center;
+} 
+
+
+/* .loginTitle{ */
+/* 	background-color: #ffebcd;	 */
+/* 	border-top-left-radius:10px; */
+/* 	border-top-right-radius:10px; */
+/* }  */
+
+
+ 
+.loginBox{
+	box-shadow: 5px 5px 5px 5px silver;
+	padding-top : 1em;
+	padding-bottom : 1.5em;
+ 	width: 30rem;
+ 	height: auto;
+	background-color: white;
+	border-radius: 10px;
+ 	margin-top: 2em;
+	margin-bottom: 2.5em;
+}
+
+#checkFormInput{
+	margin-top: 1.5em;
+/* 	margin-bottom: 1.5em; */
+	margin-left:auto;
+    margin-right:auto;
+}
+
+#emp_num{
+	width: 60%;
+	height: 2em;
+	padding :1px 6px;
+	border: 1px solid black;
+	border-radius: 4px;
+	font-size: 16px;
+	margin-bottom: 3px;
+	margin-left:auto;
+    margin-right:auto;
+    display: block;
+    border-color: silver;
+
+}
+#emp_pw{
+	width: 60%;
+	height: 2em;
+	padding :1px 6px;
+	border: 1px solid black;
+	border-radius: 5px;
+	font-size: 16px;
+	margin-bottom: 1em;
+	margin-left:auto;
+    margin-right:auto;
+    display: block;
+    border-color: silver;
+}
+
+.inputRememberPassword{
+/* 	margin-bottom: 5px;	 */
+	margin-left:20%;
+
+    display: block;
+}
+
+.msg{
+	text-align: center;
+	margin-bottom: 1em;
+	color: red;
+}  
+
+/* .loginBtn{ */
+/* 	background-color: #ffebcd; */
+/* 	padding-top: 1em; */
+/*     padding-bottom: 1em; */
+/*  	height: auto; */
+/* 	border-bottom-left-radius: 10px; */
+/* 	border-bottom-right-radius: 10px;	 */
+/* } */
+
+
+.btnSubmit{
+	width: 4.5rem;
+	border-radius:5px;
+	background-color: #ffebcd;
+	border:none;
+	font-size:17px;
+	font-weight:bold;
+	padding:7px;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+}
+
+.btnSubmit:hover{
+	background-color: #ffdead;
+	cursor: pointer;
+}
+
+  /* 푸터 */
+.py-4 {
+  padding-top: 1.5rem !important;
+  padding-bottom: 1.5rem !important;
+}  
+
+.mt-auto {
+    margin-top: auto !important;
+}
+.btn{
+	text-align:center;
+	width : 4em;
+	border-radius: 5px;
+	border: none;
+}
+
+.bg-light {
+  width: 100%;
+    --bs-bg-opacity: 1;
+    background-color: #ECECEC !important;
+}
+
+.container-fluid {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.px-4 {
+  padding-right: 1.5rem !important;
+  padding-left: 1.5rem !important;
+}
+
+
+.d-flex {
+    display: flex !important;
+}
+
+.align-items-center {
+  align-items: center !important;
+}
+
+.justify-content-center {
+  justify-content: center !important;
+}
+
+.small {
+    font-size: 0.875em;
+}
+
+.text-muted {
+    --bs-text-opacity: 1; 
+    color: black !important;
+ }
+  
+}

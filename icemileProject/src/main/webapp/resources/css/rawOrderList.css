@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+.cardHeaderFirstLine{
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}  
+
+.cardHeaderFirstLine>text{
+	margin-right:1em;
+}
+
+.cardHeaderFirstLine>input{	
+	width:6em;
+}	
+
+.cardHeaderTab{
+	margin-right: 3.5em;
+}
+
+.cardHeaderSecondLine{
+    margin-bottom: 1rem; 
+}
+
